@@ -1,10 +1,29 @@
-# user variables, change this to make custom site.
-
+---
+title: Yukenz.Github.Io
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 name: SUDO
 desc: Kumpulan Tutorial Open Source Bahasa Indonesia.
 author:
   name: Ryuuzaki
-  avatar: //gravatar.com/avatar/daa1cc36ed2ab0d13045d5cd2431cde9?s=320
+  avatar: "//gravatar.com/avatar/daa1cc36ed2ab0d13045d5cd2431cde9?s=320"
   profile: |
     Just another ordinary grad student in computer engineering.
     I'm interest in programming language, algorithm, and mathematics.
@@ -12,44 +31,26 @@ author:
     I live in Chiang Mai or Bangkok, Thailand.
     And you may found me around BarCamp event ;D
   socials:
-    facebook:
-    twitter: //twitter.com/itclax
-    google-plus:
-    github: //github.com/yukenz
-    stack-overflow: //stackoverflow.com/users/889578/neizod
-    instagram:
-    pinterest:
-    steam: //steamcommunity.com/id/neizod/
+    facebook: 
+    twitter: "//twitter.com/itclax"
+    google-plus: 
+    github: "//github.com/yukenz"
+    stack-overflow: "//stackoverflow.com/users/889578/neizod"
+    instagram: 
+    pinterest: 
+    steam: "//steamcommunity.com/id/neizod/"
 license: MIT License
-
-url: "https://sudo.web.id" # the base hostname & protocol for your site
+url: https://yukenz.github.io
 plugins:
-  - jekyll-sitemap
-
-# theme variables, change this to make site looks best.
-baseurl: 'https://sudo.web.id'
+- jekyll-sitemap
+baseurl: https://yukenz.github.io
 paginate: 5
-
-
-# system variables, do not change unless you knew what's it does.
 paginate_path: page/:num
 highlighter: pygments
 markdown: redcarpet
 redcarpet:
-  extensions: ["tables"]
-
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-
+  extensions:
+  - tables
 sass:
   sass_dir: _sass
   style: compressed

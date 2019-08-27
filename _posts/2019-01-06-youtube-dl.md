@@ -1,7 +1,13 @@
 ---
 title: Cara Download Video di Youtube dengan CLI di Linux
-tags: [Linux, Tutorial,CLI,Youtube,Tips and Trick]
-thumbnail : https://image.freepik.com/free-icon/youtube-logo_318-33597.jpg
+date: 2019-01-06 00:00:00 Z
+tags:
+- Linux
+- Tutorial
+- CLI
+- Youtube
+- Tips and Trick
+thumbnail: https://image.freepik.com/free-icon/youtube-logo_318-33597.jpg
 ---
 
 Halo Teman-teman semuanya. Kali ini admin akan membuat tutorial Cara Download Video di Youtube dengan CLI di Linux.

@@ -1,7 +1,13 @@
 ---
 title: Cara Install OpenCL Driver di Linux Debian 8
-tags: [Linux, Tutorial,CLI,Youtube,Tips and Trick]
-thumbnail : https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/OpenCL_Logo.svg/1200px-OpenCL_Logo.svg.png
+date: 2019-01-16 00:00:00 Z
+tags:
+- Linux
+- Tutorial
+- CLI
+- Youtube
+- Tips and Trick
+thumbnail: https://upload.wikimedia.org/wikipedia/en/thumb/1/1c/OpenCL_Logo.svg/1200px-OpenCL_Logo.svg.png
 ---
 
 Halo Teman-teman semuanya. Kali ini admin akan membuat Cara Install OpenCL Driver di Linux Debian 8.
