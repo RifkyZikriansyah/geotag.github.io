@@ -2,16 +2,16 @@
   <loc>{{ post.url | absolute_url }}</loc>
   <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
   {% if page.priority %}<priority>{{page.priority}}</priority>{%endif%}
-  <image:image>
   {% if post.thumbnail %}
       {% if post.thumbnail contains "//" %}
         {% capture thumbnail %}{{ post.thumbnail }}{% endcapture %}
       {% else %}
         {% capture thumbnail %}{{ post.thumbnail | prepend: site.baseurl }}{% endcapture %}
       {% endif %}
+	<image:image>
     <image:loc>{{ thumbnail }}</image:loc>
-	{%endif%}
-    <image:title>{{ post.title }}</image:title>
+	<image:title>{{ post.title }}</image:title>
     <image:caption>{{ post.title }}</image:caption>
   </image:image>
+	{%endif%}
 </url>
