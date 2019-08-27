@@ -10,8 +10,8 @@
       {% endif %}
 	<image:image>
     <image:loc>{{ thumbnail }}</image:loc>
-	<image:title>{{ post.title }}</image:title>
-    <image:caption>{{ post.title }}</image:caption>
+	<image:title><![CDATA[{{ post.title }}]]></image:title>
+    <image:caption><![CDATA[{{ post.title }}]]></image:caption>
   </image:image>
 	{%endif%}
 </url>
